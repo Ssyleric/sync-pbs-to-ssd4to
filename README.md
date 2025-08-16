@@ -17,7 +17,7 @@ Ce projet automatise la **synchronisation des backups Proxmox Backup Server (PBS
 ## 📂 Scripts
 
 - `/home/scripts/sync-pbs-to-ssd4to_copy.sh`→ **Copie réelle** (production).
-- `/home/scripts/sync-pbs-to-ssd4to_copy_dryrun.sh`
+- `/home/scripts/sync-pbs-to-ssd4to_dryrun.sh`
   → **Simulation** (aucune donnée copiée, permet de voir les deltas).
 
 ---
@@ -26,7 +26,7 @@ Ce projet automatise la **synchronisation des backups Proxmox Backup Server (PBS
 
 ```
 📦 Copie PBS → PVE terminée
-• Source : 192.168.1.101:/mnt/datastore/marechal-pbs
+• Source : 192.168.1.XXX:/mnt/datastore/marechal-pbs
 • Destination : /mnt/ssd4to/pbs-marechal
 • Taille source :   770GB
 • Taille destination :   770GB
